@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>ID AND CLASS</title>
+    <meta name="Author" content="Prsanth K" />
+    <meta name="Description" content="Id And class" />
+<style>
+    .special
+    {
+        background-color:#25CCF7;
+        font-size:18 ;
+        text-align: center;
+    }
+    .test
+    {
+         color : red;
+    }
+    #demo
+    {
+        color : blue;
+    }
+</style> 
+<script>
+
+    function changetext()
+    {
+        let x=document.getElementById("demo").innerHTML="Hello JavaScript";
+        console.log(x);
+    }
+</script>
+
+</head>
+<body class="special test">
+<h2> ID and Class</h2>
+<p id="demo" onclick="changetext()"> click me</p>
+<p id="demo" onclick="changetext()"> click here</p>
+
+
+</body>
+</html>
